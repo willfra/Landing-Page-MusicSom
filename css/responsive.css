@@ -1,4 +1,8 @@
 @media screen and (max-width: 900px) {
+
+    header {
+        height: 40vh;
+    }
     .carousel img {
         width: calc(98% / 2);
     }
@@ -11,12 +15,28 @@
     .hamburger {
         display: block;
     }
+
+    .sidebar-background-solid {
+        /*         display: unset; */
+    }
+
+    .sidebar {
+        /*         display: unset; */
+    }
 }
 
 @media screen and (max-width: 550px) {
     .carousel img {
-        width: 98%;
+        width: 100%;
     }
+
+    .sidebar {
+        width: 90%;
+    }
+    header {
+        height: 35vh;
+    }
+
 }
 
 @media (max-width: 720px) {}

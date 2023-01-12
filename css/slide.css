@@ -14,14 +14,14 @@ section#slide {
 
 .wrapper i {
   top: 50%;
-  height: 45px;
-  width: 45px;
+  height: 35px;
+  width: 35px;
   color: #ff8800;
   cursor: pointer;
   font-size: 1.5rem;
   position: absolute;
   text-align: center;
-  line-height: 44px;
+  line-height: 35px;
   background: #fff;
   border-radius: 50%;
   transform: translateY(-50%);
@@ -30,7 +30,7 @@ section#slide {
 }
 
 .wrapper i:active {
-  transform: translateY(-50%) scale(0.9);
+  transform: translateY(-50%) scale(1.1);
 }
 
 .wrapper i:hover {
@@ -69,7 +69,7 @@ section#slide {
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
-  width: calc(98% / 3);
+  width: calc(97% / 3);
 }
 
 .carousel img:first-child {
