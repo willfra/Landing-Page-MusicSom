@@ -1,7 +1,8 @@
 /* import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-/* import css slide */
+
 @import url(css/slide.css);
+
 
 :root {
   --background-solid: rgba(0, 0, 0, 0.74);
@@ -55,7 +56,7 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .menu nav ul {
@@ -68,9 +69,21 @@ header {
 }
 
 .logo {
-
+  width: 200px;
+  height: 50px;
 }
-.redes-sociais i {
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+ i {
   padding: 5px;
   font-size: 1.5rem;
+}
+.hamburger {
+  display: none;
+}
+.hamburger i {
+  font-size: 1.9rem;
 }

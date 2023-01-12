@@ -27,7 +27,6 @@ section#slide {
   transform: translateY(-50%);
   transition: transform 0.1s linear;
   box-shadow: 2px 5px 15px -3px rgba(28, 71, 122, 0.76);
-
 }
 
 .wrapper i:active {

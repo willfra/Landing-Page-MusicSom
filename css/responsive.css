@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(98% / 2);
+    }
+
+    .menu nav,
+    .menu .redes-sociais {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carousel img {
+        width: 98%;
+    }
+}
+
+@media (max-width: 720px) {}
