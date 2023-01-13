@@ -1,3 +1,9 @@
+@media (max-width: 1050px) {
+    .ingresso .cover {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 900px) {
 
     header {
@@ -26,17 +32,27 @@
     }
 
     .box-section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
         flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: calc(.ingressoHeight * 2);
+        margin-top: 20px;
+        align-content: flex-start;
     }
 
     .ingresso {
         width: 100%;
     }
 
-    .ingresso:nth-child(2) {
-        margin-left: 0px;
-        margin-top: 20px;
+    .ingresso:nth-child(2) {}
+
+    .ingresso .cover {
+        display: block;
     }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -62,7 +78,12 @@
         font-weight: bold;
     }
 
+    .date-place {
+        width: 27%;
+    }
+
+    .ingresso .cover {
+        display: none;
+    }
 
 }
-
-@media (max-width: 720px) {}

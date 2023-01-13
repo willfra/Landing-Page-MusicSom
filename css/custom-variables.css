@@ -1,0 +1,49 @@
+:root {
+    --ingresso1-theme-color1: #000120;
+    --ingresso1-theme-color2: #ED268D;
+
+    --ingresso2-theme-color1: #311d5c;
+    --ingresso2-theme-color2: #000120;
+
+    --ingresso3-theme-color1: #000120;
+    --ingresso3-theme-color2: #000120;
+
+    --ingresso4-theme-color1: #000120;
+    --ingresso4-theme-color2: #000120;
+}
+
+#ingresso-1 .date-place {
+    background-color: var(--ingresso1-theme-color1);
+}
+
+#ingresso-1 .title1 {
+    color: var(--ingresso1-theme-color2);
+}
+
+#ingresso-1 .title2 {
+    color: var(--ingresso1-theme-color1);
+}
+
+#ingresso-1 .open p {
+    color: var(--ingresso1-theme-color1);
+}
+
+#ingresso-1 .open i {
+    color: var(--ingresso1-theme-color2);
+}
+
+#ingresso-1 .footer p {
+    color: var(--ingresso1-theme-color2);
+}
+
+#ingresso-1 .footer i {
+    color: var(--ingresso1-theme-color2);
+}
+
+#ingresso-1 .footer .address p:last-child {
+    color: var(--ingresso1-theme-color1);
+}
+
+
+
+

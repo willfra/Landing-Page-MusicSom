@@ -69,7 +69,7 @@ section#slide {
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
-  width: calc(97% / 3);
+  width: calc(98% / 3);
 }
 
 .carousel img:first-child {
