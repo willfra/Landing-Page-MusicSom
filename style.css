@@ -68,7 +68,6 @@ header {
 
 .menu nav ul li {
   margin: 10px;
-  cursor: pointer;
 }
 
 .logo {
@@ -81,8 +80,16 @@ header {
   height: 100%;
   object-fit: contain;
 }
-.redes-sociais i {
+.redes-sociais i, 
+.menu nav ul li,
+.hamburger i {
   cursor: pointer;
+  transition: 0.3s;
+}
+.redes-sociais i:hover,
+.menu nav ul li:hover,
+.hamburger i:hover {
+  color: var(--color-theme-2);
 }
  i {
   padding: 5px;
@@ -93,7 +100,7 @@ header {
   cursor: pointer;
 }
 .hamburger i {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 }
 .sidebar-background-solid {
   display: none;
@@ -190,7 +197,7 @@ header {
   height: 200px;
   background-color: rgb(192, 192, 192);
   border-radius: 10px;
-  
+
 }
 .ingresso:nth-child(2) {
   margin-left: 20px;
