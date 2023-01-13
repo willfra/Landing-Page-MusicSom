@@ -36,6 +36,16 @@
     header {
         height: 35vh;
     }
+    .section-header .section-title-left i {
+        font-size: 2.6rem;
+        color: var(--color-theme-1);
+      }
+      .section-header .title p {
+        color: var(--color-theme-1);
+        line-height: 17px;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
 
 }
 
