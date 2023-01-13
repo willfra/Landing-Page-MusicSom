@@ -3,6 +3,7 @@
     header {
         height: 40vh;
     }
+
     .carousel img {
         width: calc(98% / 2);
     }
@@ -23,6 +24,19 @@
     .sidebar {
         /*         display: unset; */
     }
+
+    .box-section {
+        flex-direction: column;
+    }
+
+    .ingresso {
+        width: 100%;
+    }
+
+    .ingresso:nth-child(2) {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -33,19 +47,21 @@
     .sidebar {
         width: 90%;
     }
+
     header {
         height: 35vh;
     }
+
     .section-header .section-title-left i {
         font-size: 2.6rem;
-        color: var(--color-theme-1);
-      }
-      .section-header .title p {
-        color: var(--color-theme-1);
+    }
+
+    .section-header .title p {
         line-height: 17px;
         font-size: 1.2rem;
         font-weight: bold;
-      }
+    }
+
 
 }
 
