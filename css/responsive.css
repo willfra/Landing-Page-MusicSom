@@ -38,7 +38,7 @@
         flex-direction: column;
         flex-wrap: nowrap;
         width: 100%;
-        height: calc(.ingressoHeight * 2);
+        height: calc(#ingresso1.height * 2);
         margin-top: 20px;
         align-content: flex-start;
     }
