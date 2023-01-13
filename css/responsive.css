@@ -56,8 +56,21 @@
 }
 
 @media screen and (max-width: 550px) {
+    .box-section {
+        margin-top: 5px;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    section#slide {
+        margin-top: -100px;
+    }
+
     .carousel img {
         width: 100%;
+        height: 200px;
     }
 
     .sidebar {
@@ -69,21 +82,71 @@
     }
 
     .section-header .section-title-left i {
-        font-size: 2.6rem;
+        font-size: 2.3rem;
+    }
+
+    .section-header .title {
+        margin-top: 4px;
     }
 
     .section-header .title p {
-        line-height: 17px;
-        font-size: 1.2rem;
-        font-weight: bold;
+        line-height: 15px;
+        font-size: 1rem;
     }
 
     .date-place {
         width: 27%;
     }
 
+    .date-place .date p:nth-child(1) {
+        font-size: 2.2rem;
+        line-height: 25px;
+    }
+
+    .date-place .date p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+
+    .date-place .date p:nth-child(3) {
+        font-size: 1.1rem;
+        line-height: 15px;
+    }
+
+    .ingresso-content {
+        padding: 10px;
+    }
+
+    .ingresso-content .description p {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+
     .ingresso .cover {
         display: none;
+    }
+
+    .call-action {
+        font-size: 0.9rem;
+        width: 175px;
+    }
+
+    .ingresso .footer .address p {
+        font-size: 0.8rem;
+        line-height: 13px;
+    }
+
+    .ingresso .footer .time p {
+        font-size: 1.2rem;
+        line-height: 13px;
+    }
+
+    .ingresso .footer i {
+        margin-right: 0px;
+
+    }
+
+    .ingresso-content .open i {
+        font-size: 1.1rem;
     }
 
 }

@@ -208,7 +208,7 @@ i {
   width: 100%;
   height: 218px;
   margin-top: 20px;
-/*   overflow: hidden; */
+  overflow: hidden;
   align-content: flex-start;
 }
 
