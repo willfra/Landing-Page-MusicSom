@@ -18,8 +18,6 @@ var ingresso = document.getElementById("ingresso-1");
 if(document.body.clientWidth < 900){
     boxSection.style.height = ((ingresso.offsetHeight*2+27) + "px");
 }
-if(document.body.clientWidth > 900){
+else {
     boxSection.style.height = ((ingresso.offsetHeight+20) + "px");
 }
-
-print(boxSection.clientHeight, ingresso.clientHeight)
