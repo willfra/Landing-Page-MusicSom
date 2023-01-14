@@ -37,7 +37,8 @@
         justify-content: flex-start;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 100%;;
+        width: 100%;
+        ;
         margin-top: 20px;
         align-content: flex-start;
     }
@@ -51,6 +52,7 @@
     .ingresso .cover {
         display: block;
     }
+
     .sobre {
         height: auto;
     }
@@ -154,6 +156,7 @@
     .sobre {
         height: auto;
     }
+
     .sobre .content {
         width: 100%;
     }
@@ -170,22 +173,27 @@
         font-size: 0.8rem;
         text-align: justify;
     }
+
     .sobre .box2 .description {
         padding: 0;
         padding-bottom: 20px;
     }
+
     .sobre .description {
         padding: 0px;
         padding-bottom: 20px;
     }
+
     .sobre .description p {
         line-height: 16px;
     }
+
     .sobre .box .logo {
         font-size: 1.3rem;
         width: 150px;
         height: 70px;
     }
+
     .sobre .box .logo p {
         margin-right: 5px;
     }
