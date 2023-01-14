@@ -34,7 +34,7 @@ if (document.body.clientWidth < 900) {
     var teste = (ingresso.offsetHeight * 2 + 27);
 }
 else {
-    var teste = (ingresso.offsetHeight + 20);
+    var teste = (ingresso.offsetHeight + 30);
 }
 
 var button = document.getElementById("wrapper2");
@@ -46,9 +46,12 @@ button.addEventListener("click", function () {
     if (expanded) {
         height = (teste); // volta para o valor inicial
         expanded = false;
+        button.innerText = "Ver mais"
     } else {
-        height = (teste * 2 + 30); // aumenta a altura em 50px
+        height = (teste * 2); // aumenta a altura
         expanded = true;
+        button.innerText = "Ver menos"
+
     }
     boxSection.style.height = height + "px";
 });
