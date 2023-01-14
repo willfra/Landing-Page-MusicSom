@@ -15,6 +15,14 @@ boxSection.style.height = ingressoAltura; */
 var boxSection = document.getElementById("box-section");
 var ingresso = document.getElementById("ingresso-1");
 
+document.body.onresize = function() {
+if(document.body.clientWidth < 900){
+    boxSection.style.height = ((ingresso.offsetHeight*2+27) + "px");
+}
+else {
+    boxSection.style.height = ((ingresso.offsetHeight+20) + "px");
+}
+};
 if(document.body.clientWidth < 900){
     boxSection.style.height = ((ingresso.offsetHeight*2+27) + "px");
 }
