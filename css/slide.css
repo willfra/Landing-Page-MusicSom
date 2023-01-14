@@ -39,7 +39,7 @@ section#slide {
 
 .wrapper i:first-child {
   left: -22px;
-  display: none;
+/*   display: none; */
 }
 
 .wrapper i:last-child {
