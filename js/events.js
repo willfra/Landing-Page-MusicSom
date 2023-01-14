@@ -31,24 +31,24 @@ else {
 }
 
 if (document.body.clientWidth < 900) {
-    var teste = (ingresso.offsetHeight * 2 + 27);
+    var tamanhoIngresso = (ingresso.offsetHeight * 2 + 25);
 }
 else {
-    var teste = (ingresso.offsetHeight + 30);
+    var tamanhoIngresso = (ingresso.offsetHeight + 15);
 }
 
 var button = document.getElementById("wrapper2");
 
-var height = (teste + 10); // valor inicial da altura
+var height = (tamanhoIngresso); // valor inicial da altura
 var expanded = false; // flag para verificar se o botão está expandido ou não
 
 button.addEventListener("click", function () {
     if (expanded) {
-        height = (teste); // volta para o valor inicial
+        height = (tamanhoIngresso); // volta para o valor inicial
         expanded = false;
         button.innerText = "Ver mais"
     } else {
-        height = (teste * 2); // aumenta a altura
+        height = (tamanhoIngresso * 2); // aumenta a altura
         expanded = true;
         button.innerText = "Ver menos"
 
