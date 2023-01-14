@@ -37,8 +37,7 @@
         justify-content: flex-start;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 100%;
-        height: calc(#ingresso1.height * 2);
+        width: 100%;;
         margin-top: 20px;
         align-content: flex-start;
     }
@@ -51,6 +50,9 @@
 
     .ingresso .cover {
         display: block;
+    }
+    .sobre {
+        height: auto;
     }
 
 }
@@ -147,6 +149,45 @@
 
     .ingresso-content .open i {
         font-size: 1.1rem;
+    }
+
+    .sobre {
+        height: auto;
+    }
+    .sobre .content {
+        width: 100%;
+    }
+
+    .sobre .box1,
+    .sobre .box2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+        padding: 15px;
+        padding-top: 5px;
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+    .sobre .box2 .description {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .sobre .description {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .sobre .description p {
+        line-height: 16px;
+    }
+    .sobre .box .logo {
+        font-size: 1.3rem;
+        width: 150px;
+        height: 70px;
+    }
+    .sobre .box .logo p {
+        margin-right: 5px;
     }
 
 }

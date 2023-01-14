@@ -193,7 +193,8 @@ i {
   transition: 0.4s;
 }
 
-.call-action:hover {
+.call-action:hover,
+.ativo {
   box-shadow: 2px 5px 15px -3px #25D366;
   background-color: #25d37c;
 }
@@ -464,22 +465,33 @@ i {
 
 .sobre .box1 {
   border-radius: 20px 20px 0px 0px;
+  background: linear-gradient(-293deg, rgba(5,13,39,1) 26%, rgb(25 14 88) 100%);
 }
 .sobre .box2 {
   border-radius: 0px 0px 20px 20px;
   flex-direction: row-reverse;
+  background: linear-gradient(293deg, rgba(5,13,39,1) 26%, rgb(25 14 88) 100%);
 }
 
 .sobre .logo {
-  width: 600px;
+  width: 900px;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 700;
+}
+.sobre .logo p{
+  color: var(--color-theme-2);
+  margin-right: 10px;
 }
 .sobre .logo img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   object-fit: contain;
 }
-
 .sobre .description {
   padding-left: 50px;
   height: 100%;
@@ -487,6 +499,10 @@ i {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.sobre .box2 .description {
+  padding-left: 0px;
+  padding-right: 50px;
 }
 .sobre .description p{
   color: white;

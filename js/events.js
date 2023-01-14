@@ -6,7 +6,7 @@ print = console.log.bind(console)
 /* Procurar o height da div.ingresso e ajustar a div#box-section com base neste valor. Transformando o resultado em pixels*/
 
 var boxSection = document.getElementById("box-section");
-var ingresso = document.getElementById("ingresso-1");
+var ingresso = document.querySelector(".ingresso");
 
 if (document.body.clientWidth < 900) {  /* ajusta o valor da var ingresso ao carregar a página */
     boxSection.style.height = ((ingresso.offsetHeight * 2 + 27) + "px");
@@ -44,7 +44,7 @@ button.addEventListener("click", function () {
         expanded = false;
         button.innerText = "Ver mais"
     } else {
-        height = (tamanhoIngresso * 2); // aumenta a altura
+        height = (tamanhoIngresso * 2); // aumenta o height
         expanded = true;
         button.innerText = "Ver menos"
 
@@ -52,4 +52,5 @@ button.addEventListener("click", function () {
     boxSection.style.height = height + "px";
 });
 
-print(teste)
+
+
